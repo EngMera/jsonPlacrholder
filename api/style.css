@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color:#EBF5EE;
+
+}
+h3,h4{
+    margin: 0;
+}
+
+.content{
+   display: flex; 
+}
+
+.left__content{
+    width: 30%;
+    background-color:#EBF5EE;
+    margin-top: 40px;
+}
+
+.users{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    
+}
+
+.user{
+    padding: 3px 20px;
+    background-color: white;
+    margin: 20px 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.user__name{
+    font-weight: 600;
+
+}
+
+.user__email{
+    color: #777;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.selected{
+    border: 2px solid #BFD1E5;
+}
+
+.right__content{
+    width: 70%;
+    /* height: 1000px; */
+    background-color:#BFD1E5;
+    margin-top: 40px;
+}
+
+.posts{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.post{
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(50px);
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+  padding: 3px 20px;
+}
+
+.post__description{
+    color: #777;
+    font-size: 14px;
+}
